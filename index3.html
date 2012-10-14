@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<meta charset="utf-8">
+	<title>My Profile</title>
+	<link href="stylesheet/main.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+<div id="wrap">
+	<div id="top">
+		<a href="">친구추가</a> | 
+		<a href="">즐겨찾기</a>
+	</div>
+	<div id="header">
+		<div id="header_top">
+			<div id="header_left">
+				<img src="images/headphones.png" width="80" height="80" alt="My Profile Home logo">
+			</div>
+			<div id="header_right">
+				<h2>Research Page</h2>
+			</div>
+		</div>
+		<div id="navbar">
+			<ul>
+				<li><a href="./index.html">HOME</a></li>
+				<li><a href="./index2.html">INFORMATION</a></li>
+				<li><a href="" class="selected">RESEARCH</a></li>
+			</ul>
+		</div>
+		<div id="line"></div>
+	</div>
+	<div id="content">
+		<div id="main_content">
+			<div class="section_1" id="information">
+				<h1>RESEARCH</h1>
+			</div>
+			<div id="table">
+				<form action="#" method="post">
+				<table border="1">
+					<tr>
+						<th>이 름</th>
+						<td >
+							<input type="text"/>
+							<input type="button" value="실명확인"/>
+						</td>
+					</tr>
+					<tr>
+						<th>성 별</th>
+						<td>
+							<input type="radio" name="sex" value="m"/>남
+							<input type="radio" name="sex" value="f"/>녀
+						</td>
+					</tr>
+					<tr>
+						<th>연 령 층</th>
+						<td >
+							<input type="radio" name="age" value="10"/>10대
+							<input type="radio" name="age" value="20"/>20대
+							<input type="radio" name="age" value="30"/>30대
+							<input type="radio" name="age" value="40"/>40대
+						</td>
+					</tr>
+					<tr>
+						<th>자신의 고향</th>
+						<td >
+							<select>
+								<option value="hometown">서울</option>
+								<option value="hometown">경기도</option>
+								<option value="hometown">충청북도</option>
+								<option value="hometown">충청남도</option>
+								<option value="hometown">강원도</option>
+								<option value="hometown">경상북도</option>
+								<option value="hometown">경상남도</option>
+								<option value="hometown">전라북도</option>
+								<option value="hometown">전라남도</option>
+								<option value="hometown">제주도</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>가장 좋아하는 스포츠</th>
+						<td>
+							<input type="radio" name="sports" value="baseball"/>야구
+							<input type="radio" name="sports" value="soccor"/>축구
+							<input type="radio" name="sports" value="basketball"/>농구
+							<input type="radio" name="sports" value="tennis"/>테니스
+						</td>
+					</tr>
+					<tr>
+						<th>자신의 취미는 어떤 것 입니까?(중복선택가능)</th>
+						<td >
+								<input type="Checkbox" name="hobby" value="exercise">운동
+								<input type="Checkbox" name="hobby" value="shopping">쇼핑
+								<input type="Checkbox" name="hobby" value="drinking">음주가무
+								<input type="Checkbox" name="hobby" value="singing">노래부르기
+								<input type="Checkbox" name="hobby" value="dancing">춤추기
+								<input type="Checkbox" name="hobby" value="cooking">요리하기
+								<input type="Checkbox" name="hobby" value="etc">기타(etc)
+								<input type="Text" name="etc" >
+						</td>
+					</tr>
+					<tr>
+						<th>자신의 꿈을 간단하게 적어보세요.(200자내외)</th>
+						<td >
+							<textarea cols="93" rows="8" name="dream"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<th>설문조사를 마치고 느낌을 적어보세요.</th>
+						<td >
+							<textarea cols="93" rows="8" name="dream"></textarea>
+						</td>
+					</tr>
+				</table>
+			<input type="submit" value="설문조사완료" />
+			</form>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적 고지 | 고객센터 </p>
+		<p>
+		Copyright © MJUCafe. All rights reserved.
+		</p>
+	</div>
+</div>
+</body>
+</html>
